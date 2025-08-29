@@ -101,7 +101,7 @@ void GUIRNALDA::ARREGLATE(char * S)
     while(P->SIG){
         P = P->SIG; // va al ultimo alumno
     }
-    P->SIG = PAL; // y aÒado el alumno al partido
+    P->SIG = PAL; // y a√±ado el alumno al partido
 }
 int GUIRNALDA::TRUCHO(char * S)
 {
@@ -177,7 +177,7 @@ int main(){
             cout << "\n\n" << BUF << " VOTO MAS DE DOS VECES, SOLO CUENTA EL PRIMER VOTO...\n";
        }
         //podria hacer como un while mientras no llegue a buf, y ir comparando todos y si lo encuentro es la 2da vez q vota o algo asi
-        // retorna 1 si ya votÛ
+        // retorna 1 si ya vot√≥
         else{
             G.ARREGLATE(BUF);
         }
